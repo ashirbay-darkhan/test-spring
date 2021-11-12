@@ -1,0 +1,1 @@
+CREATE TABLE `spring`.`user` ( `id` BIGINT(25) NOT NULL AUTO_INCREMENT , `email` VARCHAR(45) NOT NULL , `password` VARCHAR(45) NOT NULL , PRIMARY KEY (`id`), UNIQUE (`id`), UNIQUE (`email`)) ENGINE = InnoDB;
